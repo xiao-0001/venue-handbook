@@ -1,0 +1,111 @@
+{
+  "id": "emnlp",
+  "name": "EMNLP",
+  "full_name": "Conference on Empirical Methods in Natural Language Processing（經 ACL Rolling Review 投稿）",
+  "edition": "EMNLP 2026",
+  "order": 6,
+  "summary": "經 ARR 投稿：長文 8 頁、短文 4 頁，審稿雙盲但沒有匿名期；有任何無法查證的參考文獻都可能被 desk reject。",
+  "sources": [
+    {
+      "file": "emnlp2026_cfp.txt",
+      "title": "EMNLP 2026 主會議徵稿說明",
+      "url": "https://2026.emnlp.org/calls/main_conference_papers/",
+      "captured": "2026/11/16"
+    },
+    {
+      "file": "emnlp2026_integrity.txt",
+      "title": "EMNLP 2026 論文誠信政策",
+      "url": "https://2026.emnlp.org/paper-integrity-policy/",
+      "captured": "2026/11/16"
+    }
+  ],
+  "sections": {
+    "pages": [
+      {
+        "zh": "長文上限 8 頁、短文上限 4 頁（依 ARR 投稿規定）。",
+        "quote": "Long Papers (8 pages) and Short Papers (4 pages)",
+        "file": "emnlp2026_cfp.txt"
+      },
+      {
+        "zh": "長文與短文投稿都應遵守所有 ARR 投稿規定。",
+        "quote": "Both long and short paper submissions should follow all of the ARR submission requirements, including:",
+        "file": "emnlp2026_cfp.txt"
+      },
+      {
+        "zh": "camera-ready 可多 1 頁（長文最多 9 頁、短文最多 5 頁）以回應審稿意見。",
+        "quote": "Final versions of accepted papers will be given one additional page of content (up to 9 pages for long papers, up to 5 pages for short papers) to address reviewers’ comments.",
+        "file": "emnlp2026_cfp.txt"
+      }
+    ],
+    "anonymity": [
+      {
+        "zh": "審稿維持雙盲。",
+        "quote": "The reviewing process will continue to be double-blind.",
+        "file": "emnlp2026_cfp.txt"
+      },
+      {
+        "zh": "依循 ACL 與 ARR 政策，沒有匿名期的要求。",
+        "quote": "Following the ACL and ARR policies, there is no anonymity period requirement.",
+        "file": "emnlp2026_cfp.txt"
+      },
+      {
+        "zh": "作者可以透過 ARR 選擇公開匿名的投稿版本。",
+        "quote": "However, authors will be given the option through ARR to make their anonymized submitted articles publicly visible.",
+        "file": "emnlp2026_cfp.txt"
+      }
+    ],
+    "appendix": [
+      {
+        "zh": "官方文件沒有寫到（2026/11/16 擷取版本）",
+        "quote": "",
+        "file": ""
+      }
+    ],
+    "llm": [
+      {
+        "zh": "允許 AI 寫作輔助，但 EMNLP 會對完全由 AI 生成的論文和含幻覺引用的投稿採取行動。",
+        "quote": "submissions with hallucinated citations, and entirely AI-generated papers (AI writing assistance is permitted). EMNLP will take actions against such submissions",
+        "file": "emnlp2026_cfp.txt"
+      },
+      {
+        "zh": "這類投稿可能被 desk reject，所有相關作者可能無法把論文 commit 到 EMNLP 2026 和 EMNLP 2027。",
+        "quote": "Such submissions may be desk rejected, and all authors involved in the submission may be ineligible to commit their paper(s) to EMNLP 2026 and EMNLP 2027.",
+        "file": "emnlp2026_cfp.txt"
+      },
+      {
+        "zh": "生成式 AI 的使用請參考 ACL 的 Generative Assistance in Authorship 指引。",
+        "quote": "Please refer to ACL’s guidelines on Generative Assistance in Authorship.",
+        "file": "emnlp2026_integrity.txt"
+      },
+      {
+        "zh": "EMNLP 2026 與 GPTZero 合作，偵測所有投稿中不存在於學術資料庫的參考文獻。",
+        "quote": "EMNLP 2026 has partnered with GPTZero to detect references that do not exist in academic databases in all submitted papers.",
+        "file": "emnlp2026_integrity.txt"
+      }
+    ],
+    "rebuttal": [
+      {
+        "zh": "作者回覆與作者—審稿人討論期間為 2026/7/7～7/13。",
+        "quote": "Author response and author-reviewer discussion July 7 - July 13, 2026",
+        "file": "emnlp2026_cfp.txt"
+      }
+    ],
+    "special": [
+      {
+        "zh": "有任何無法查證的參考文獻都可能被 desk reject，所有相關作者可能無法把論文 commit 到 EMNLP 2026 和 EMNLP 2027。",
+        "quote": "Papers with any unverifiable reference may be desk rejected, and all authors involved in the submission may be ineligible to commit their paper(s) to EMNLP 2026 and EMNLP 2027.",
+        "file": "emnlp2026_integrity.txt"
+      },
+      {
+        "zh": "投稿後所有作者都必須在 2026/5/27 AoE 當天結束前填完 author registration form。",
+        "quote": "After submission, all authors must complete the author registration form by May 27, 2026 EoD AoE.",
+        "file": "emnlp2026_cfp.txt"
+      },
+      {
+        "zh": "ARR 2026 May 投稿時須明確宣告要 commit 到哪個會議，這個選擇對 EMNLP 2026 具約束力。",
+        "quote": "authors will need to explicitly declare which conference they intend to commit to at submission time. This choice will be binding for EMNLP 2026",
+        "file": "emnlp2026_cfp.txt"
+      }
+    ]
+  }
+}
