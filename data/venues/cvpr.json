@@ -1,0 +1,140 @@
+{
+  "id": "cvpr",
+  "name": "CVPR",
+  "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "edition": "CVPR 2026",
+  "order": 5,
+  "summary": "8 頁（不含參考文獻），rebuttal 只有一頁 PDF；引用不存在的文獻會被拒，每位作者最多投 25 篇。",
+  "sources": [
+    {
+      "file": "cvpr2026_authorguide.txt",
+      "title": "CVPR 2026 作者指南",
+      "url": "https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines",
+      "captured": "2026/11/02"
+    }
+  ],
+  "sections": {
+    "pages": [
+      {
+        "zh": "論文上限 8 頁（含圖表），另可加只含參考文獻的頁面。",
+        "quote": "Papers are limited to eight pages, including figures and tables, in the CVPR style. Additional pages containing only cited references are allowed.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "未妥善匿名、未用模板或超過 8 頁（不含參考文獻）者不審即拒。",
+        "quote": "Papers that are not properly anonymized, or do not use the template, or have more than eight pages (excluding references) will be rejected without review.",
+        "file": "cvpr2026_authorguide.txt"
+      }
+    ],
+    "anonymity": [
+      {
+        "zh": "致謝（如同事、計畫編號）與補充材料中都不得出現可辨識作者的資訊。",
+        "quote": "Do not provide information that may identify the authors in the acknowledgments (e.g., co-workers and grant IDs) nor in the supplementary material",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "可以把投稿放上 arXiv。",
+        "quote": "Q. Can I post my submission on arXiv? A. Yes.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "錄取前不得與媒體討論投稿論文。",
+        "quote": "Papers submitted to CVPR must not be discussed with the media until they have been officially accepted for publication.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "任何把論文稱為「under submission to CVPR」的說法都違反政策。",
+        "quote": "However, please note that any mention of the paper as “under submission to CVPR” is in violation of the policy.",
+        "file": "cvpr2026_authorguide.txt"
+      }
+    ],
+    "appendix": [
+      {
+        "zh": "可選擇提交因格式或篇幅限制無法放入的補充材料。",
+        "quote": "The authors may optionally submit additional material that could not be included due to constraints of format or space.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "審稿人被鼓勵但沒有義務看補充材料。",
+        "quote": "Reviewers will be encouraged to look at it, but are not obligated to do so.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "補充材料可包含影片、證明、額外圖表、更詳細的實驗分析或投往他處的同期投稿。",
+        "quote": "Supplementary material may include videos, proofs, additional figures or tables, more detailed analysis of experiments presented in the paper, or a concurrent submission to another conference.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "補充 PDF 沒有格式要求，允許單欄排版。",
+        "quote": "Formatting supplementary documents in a single-column layout is permitted.",
+        "file": "cvpr2026_authorguide.txt"
+      }
+    ],
+    "llm": [
+      {
+        "zh": "作者可使用任何工具，但須對論文中的不實陳述、事實錯誤或抄襲負責。",
+        "quote": "Authors may use any tools they find productive in preparing a paper, but must be aware that they are responsible for any misrepresentation, factual inaccuracy, or plagiarism in their paper.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "引用不存在文獻的論文一經發現即被拒，且可能不審即拒。",
+        "quote": "Papers containing citations of non-existent material will be rejected when found, and may be rejected without review.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "「是 LLM 做的」不能作為抄襲或錯誤的辯解理由。",
+        "quote": "It is not a defense to a charge of plagiarism or of inaccuracy to argue that \"an LLM did it\".",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "Prompt injection（影響審稿人或工具的隱藏文字/指令）嚴格禁止，視為違反倫理。",
+        "quote": "Prompt injection: Hidden text or instructions to influence reviewers/tools, is strictly prohibited and considered an ethics violation.",
+        "file": "cvpr2026_authorguide.txt"
+      }
+    ],
+    "rebuttal": [
+      {
+        "zh": "Rebuttal 限一頁 PDF 並使用官方 rebuttal 模板，超過一頁不予審閱。",
+        "quote": "The rebuttal is limited to a one-page PDF file using the rebuttal template included in the CVPR 2026 Submission Template . Responses longer than one page will simply not be reviewed.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "Rebuttal 須保持匿名，不得包含程式碼、影片等外部連結。",
+        "quote": "The rebuttal must maintain anonymity. It cannot include links to external material such as code, videos, etc.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "作者應避免在 rebuttal 中加入新貢獻或新實驗結果，尤其是未被審稿人要求時。",
+        "quote": "Authors should refrain from including new contributions or experimental results in the rebuttal, especially when not specifically requested to do so by the reviewers.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "作者可另外給 AC 一則機密留言，但僅限特殊情況。",
+        "quote": "Authors also have the possibility to submit a separate confidential comment to the area chair. Please do so only in exceptional circumstances.",
+        "file": "cvpr2026_authorguide.txt"
+      }
+    ],
+    "special": [
+      {
+        "zh": "每位作者最多 25 篇投稿，超過的部分會被 desk reject。",
+        "quote": "Each author is limited to a maximum of 25 paper submissions. If an author registers more than 25 papers, the Program Chairs (PCs) will desk-reject any submissions exceeding this limit.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "作者除非獲得豁免，否則會自動加入審稿人名單。",
+        "quote": "Authors will be automatically added to the reviewer pool unless they are exempted.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "投稿、補充材料與 rebuttal 中不得放會擴充內容或破壞審稿流程的外部連結。",
+        "quote": "Authors are not allowed to include external links (e.g., to webpages, images, or videos) in submissions, supplementary material, and rebuttal, when the links expand content and subvert the reviewing process.",
+        "file": "cvpr2026_authorguide.txt"
+      },
+      {
+        "zh": "未完成 OpenReview profile 的作者所屬論文會被 desk reject。",
+        "quote": "Papers with authors who have not completed their profiles will be desk-rejected.",
+        "file": "cvpr2026_authorguide.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "icml",
+  "name": "ICML",
+  "full_name": "International Conference on Machine Learning",
+  "edition": "ICML 2026",
+  "order": 4,
+  "summary": "主文 8 頁，超過就自動拒絕；每篇至少要有一位作者擔任審稿人，回覆期間不能上傳修訂版。",
+  "sources": [
+    {
+      "file": "icml2026_cfp.txt",
+      "title": "ICML 2026 徵稿說明",
+      "url": "https://icml.cc/Conferences/2026/CallForPapers",
+      "captured": "2026/11/02"
+    },
+    {
+      "file": "icml2026_authorinstr.txt",
+      "title": "ICML 2026 作者說明",
+      "url": "https://icml.cc/Conferences/2026/AuthorInstructions",
+      "captured": "2026/11/02"
+    }
+  ],
+  "sections": {
+    "pages": [
+      {
+        "zh": "主文最多 8 頁，之後可接任意頁數的參考文獻與附錄，全部放在單一 PDF。",
+        "quote": "Submitted papers are composed of a main body, which can be up to eight pages long, followed by any number of pages for references and appendices, all in a single PDF file.",
+        "file": "icml2026_authorinstr.txt"
+      },
+      {
+        "zh": "主文超過 8 頁的投稿會被自動拒絕。",
+        "quote": "In particular, any submission whose main body goes over the 8 page limit will be automatically rejected.",
+        "file": "icml2026_authorinstr.txt"
+      },
+      {
+        "zh": "Impact statement 放在論文末（與 Acknowledgements 同處、References 前），不計入頁數上限。",
+        "quote": "This statement should be in a separate section at the end of the paper (co-located with Acknowledgements, before References), and does not count toward the paper page limit.",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "camera-ready 多 1 頁，主文上限為 9 頁。",
+        "quote": "In the camera-ready version, you have an extra page to address reviewer comments, so the length limit of the paper body is 9 pages",
+        "file": "icml2026_authorinstr.txt"
+      }
+    ],
+    "anonymity": [
+      {
+        "zh": "作者可以把論文放到 arXiv 等 preprint 伺服器。",
+        "quote": "Authors are allowed to post versions of their work on preprint servers such as arXiv.",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "審稿期間任何時候都不得把論文宣傳為 ICML 投稿。",
+        "quote": "However, under no circumstances should the work be advertised as an ICML submission at any time during the review period",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "若已發或將發非匿名版本，投稿版本不得提及該非匿名版本。",
+        "quote": "If the authors have posted or plan to post a non-anonymized version of the paper online before the ICML decisions are made, the submitted version must not refer to the non-anonymized version.",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "投稿中不應包含致謝、計畫編號或公開程式碼庫連結。",
+        "quote": "They should refrain from including acknowledgements, grant numbers, or links to public code repositories in their submissions.",
+        "file": "icml2026_authorinstr.txt"
+      }
+    ],
+    "appendix": [
+      {
+        "zh": "審稿人可自行決定是否閱讀附錄或補充材料，關鍵內容必須放在主文。",
+        "quote": "It is entirely up to the reviewers to decide whether they wish to consult any of the appendices in the submitted paper or this Supplementary Material. Therefore, if there is material critical to the evaluation of the paper, it needs to be included in the main body of the paper.",
+        "file": "icml2026_authorinstr.txt"
+      },
+      {
+        "zh": "傳統文字附錄不必另交補充材料，可直接放在主投稿檔。",
+        "quote": "Note that traditional text appendices to the paper need not be submitted as a separate Supplementary Material",
+        "file": "icml2026_authorinstr.txt"
+      },
+      {
+        "zh": "補充材料沒有另外的截止日，須與論文同時提交。",
+        "quote": "There is no separate deadline for Supplementary Material: All supplementary material must be submitted by the same deadline as the paper submission.",
+        "file": "icml2026_authorinstr.txt"
+      },
+      {
+        "zh": "可用匿名 GitHub 提交程式碼，但該 branch 在截止後不得再修改。",
+        "quote": "Submission of code through anonymous GitHub repositories is also allowed; however, they have to be on a branch that will not be modified after the submission deadline.",
+        "file": "icml2026_authorinstr.txt"
+      }
+    ],
+    "llm": [
+      {
+        "zh": "作者可用 LLM 等生成式 AI 協助寫作或研究，但須對論文所有內容負全責。",
+        "quote": "Authors are allowed to use generative AI tools such as Large Language Models (LLMs) to assist in writing or research. However, authors must take full responsibility for all content in their paper",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "鼓勵作者說明這些工具在研究方法中值得注意的使用方式。",
+        "quote": "We encourage authors to explain any notable ways in which these tools were used in their research methodology.",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "LLM 不具作者資格。",
+        "quote": "LLMs are not eligible for authorship.",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "任何 prompt injection 嘗試都嚴格禁止，並會導致 desk reject。",
+        "quote": "Any attempts at prompt injection are strictly forbidden and will result in desk rejection.",
+        "file": "icml2026_cfp.txt"
+      }
+    ],
+    "rebuttal": [
+      {
+        "zh": "回覆期間作者可看到審稿並回覆，但審稿人要到此期間結束後才看得到回覆。",
+        "quote": "During this response period, authors can see the reviews and respond to their content, but these responses will only be visible to the reviewers after this period.",
+        "file": "icml2026_authorinstr.txt"
+      },
+      {
+        "zh": "之後的討論期，審稿人與作者只能再進行一輪往來。",
+        "quote": "During the subsequent discussion period, reviewers and authors will be able to engage in one additional round of communication",
+        "file": "icml2026_authorinstr.txt"
+      },
+      {
+        "zh": "回覆不得包含非匿名 URL、個人網站 URL 或短網址。",
+        "quote": "the response should not contain non-anonymized URLs, URLs for personal websites, or “shortened” URLs",
+        "file": "icml2026_authorinstr.txt"
+      },
+      {
+        "zh": "author feedback 期間不能上傳修訂版論文。",
+        "quote": "There is no option to upload a revised version of the paper during the author feedback period.",
+        "file": "icml2026_authorinstr.txt"
+      }
+    ],
+    "special": [
+      {
+        "zh": "每篇投稿至少要有一位作者同意擔任 ICML 審稿人（reciprocal reviewing）。",
+        "quote": "All submissions must have at least one author who agrees to serve as a reviewer for ICML.",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "今年新規：一位作者最多只能為自己的 2 篇投稿擔任 reciprocal reviewer。",
+        "quote": "New this year: An author can be designated as the reciprocal reviewer for at most 2 of that author's submissions.",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "投稿 4 篇以上的作者都必須同意擔任審稿人。",
+        "quote": "every author with 4 or more submissions must agree to serve as a reviewer for ICML",
+        "file": "icml2026_cfp.txt"
+      },
+      {
+        "zh": "政策改變：錄取論文作者可選擇不出席。",
+        "quote": "Change in policy: Attendance for authors of accepted papers is optional.",
+        "file": "icml2026_cfp.txt"
+      }
+    ]
+  }
+}

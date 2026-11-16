@@ -1,0 +1,151 @@
+{
+  "id": "neurips",
+  "name": "NeurIPS",
+  "full_name": "Conference on Neural Information Processing Systems",
+  "edition": "NeurIPS 2026",
+  "order": 2,
+  "summary": "主文 9 頁；身兼審稿人的作者沒審完就看不到自己論文的審稿意見，錄取論文的審稿與討論會公開。",
+  "sources": [
+    {
+      "file": "neurips2026_cfp.txt",
+      "title": "NeurIPS 2026 徵稿說明",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "captured": "2026/11/02"
+    },
+    {
+      "file": "neurips2026_handbook.txt",
+      "title": "NeurIPS 2026 主會議手冊",
+      "url": "https://neurips.cc/Conferences/2026/MainTrackHandbook",
+      "captured": "2026/11/02"
+    }
+  ],
+  "sections": {
+    "pages": [
+      {
+        "zh": "主文上限 9 頁內容頁，含所有圖表。",
+        "quote": "The main text of a submitted paper is limited to nine content pages, including all figures and tables.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "參考文獻、選填的技術附錄與必填的 paper checklist 不算內容頁。",
+        "quote": "Additional pages containing references, optional technical appendices and mandatory paper checklist do not count as content pages.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "錄取後 camera-ready 可多 1 頁內容頁。",
+        "quote": "If your submission is accepted, you will be allowed an additional content page for the camera-ready version.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "違反 NeurIPS 格式（如縮小邊界或字體）或頁數限制可能被 desk reject。",
+        "quote": "Submissions that violate the NeurIPS style (e.g., by decreasing margins or font sizes) or page limits may be desk rejected.",
+        "file": "neurips2026_handbook.txt"
+      }
+    ],
+    "anonymity": [
+      {
+        "zh": "所有投稿須匿名，此規定也適用於補充資料與連結內容（含程式碼）。",
+        "quote": "All submissions must be anonymized and may not contain any identifying information that may violate the double-blind reviewing policy. This policy applies to any supplementary or linked material as well, including code.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "存在非匿名 preprint（arXiv、個人網站、社群媒體等）不會導致被拒。",
+        "quote": "The existence of non-anonymous preprints (on arXiv or other online repositories, personal websites, social media) will not result in rejection.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "公開版本不可寫「Under review at NeurIPS」之類的字樣。",
+        "quote": "The public versions of the submission should not say \"Under review at NeurIPS\" or similar.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "積極宣傳審稿中的論文可能被視為違規。",
+        "quote": "aggressive advertising of papers under submission may be deemed a violation",
+        "file": "neurips2026_handbook.txt"
+      }
+    ],
+    "appendix": [
+      {
+        "zh": "附錄放證明、實驗細節等支援性文字資訊；程式碼與資料另以檔案提交。",
+        "quote": "Appendices containing any other supporting textual information e.g. proofs, experimental details (code and data will be submitted in a separate file).",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "資料或程式碼等補充材料可另以單一 ZIP 檔提交，上限 100MB。",
+        "quote": "Supplementary material, such as data or source code, may also be submitted separately in a single ZIP file of up to 100MB.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "完整論文截止日（含所有補充材料）為 2026/5/6 AOE。",
+        "quote": "Full paper submission deadline, including all supplementary materials: May 6, 2026 AOE",
+        "file": "neurips2026_cfp.txt"
+      }
+    ],
+    "llm": [
+      {
+        "zh": "若 agents/LLM 是方法中重要、原創或非標準的元件，須在實驗設定章節說明。",
+        "quote": "The use of agents and/or LLMs in implementing the method should be described in the experimental setup section (or equivalent) if it is an important, original, or non-standard component of the approach",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "拼字、文法檢查、編輯輔助與基本程式輔助不需記錄。",
+        "quote": "The use of spell checkers and grammar suggestions, aid for editing purposes, and basic code assistance does not need to be documented.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "作者為論文負責，因此 agents 與 LLM 不能當作者。",
+        "quote": "as you are the one taking responsibility for the work, agents and LLMs cannot be authors",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "嚴格禁止 prompt injection 及其他操控審稿的行為。",
+        "quote": "attempts at prompt injections as well as other attempts to manipulate reviewing is strictly prohibited",
+        "file": "neurips2026_handbook.txt"
+      }
+    ],
+    "rebuttal": [
+      {
+        "zh": "每份審稿的 rebuttal 上限 10,000 字元，可用 markdown，但不能上傳附加檔案。",
+        "quote": "The per-review rebuttal limit is 10,000 characters. You may use plain text with markdown formatting supported by OpenReview, but you cannot upload any additional files.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "回覆可包含新結果，但錄取建議仍以原始投稿為依據。",
+        "quote": "These responses can include new results, however your original submission will serve as the basis for the reviewers’ (and ACs’) acceptance recommendations.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "回覆中不得使用連結；唯一例外是審稿人要求程式碼時，可在 Official Comment 中給 AC 匿名連結。",
+        "quote": "Do not use links in any part of the response. The only exception is if the reviewers asked for code, in which case you can send an anonymized link to the AC in an Official Comment",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "author response 期間不得提交論文或補充材料的修訂版。",
+        "quote": "During this time, authors may not submit revisions of their paper or supplemental material",
+        "file": "neurips2026_handbook.txt"
+      }
+    ],
+    "special": [
+      {
+        "zh": "身兼審稿人的作者若未完成所有審稿，就看不到自己論文的審稿意見。",
+        "quote": "Authors who are also reviewers will not see the reviews of their own submission(s) unless they have completed all assigned reviews.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "嚴重失職的 reviewer-author，其投稿可能在 meta-review 階段被 desk reject。",
+        "quote": "If significant problems persist and are verified by the PC chairs and E&D track chairs, the reviewer’s own submitted papers may face desk rejection during the meta-review stage.",
+        "file": "neurips2026_handbook.txt"
+      },
+      {
+        "zh": "摘要截止日為 2026/5/4 AOE，投稿時所有作者都須有 OpenReview profile。",
+        "quote": "Abstract submission deadline: May 4, 2026 (AOE). All authors must have an OpenReview profile when submitting",
+        "file": "neurips2026_cfp.txt"
+      },
+      {
+        "zh": "錄取論文的審稿、meta-review 與作者討論都會公開。",
+        "quote": "Reviews, meta-reviews, and any discussion with the authors will be made public for accepted papers",
+        "file": "neurips2026_handbook.txt"
+      }
+    ]
+  }
+}

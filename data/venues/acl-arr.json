@@ -1,0 +1,162 @@
+{
+  "id": "acl-arr",
+  "name": "ACL / ARR",
+  "full_name": "Annual Meeting of the Association for Computational Linguistics（經 ACL Rolling Review 投稿）",
+  "edition": "ACL 2027",
+  "order": 1,
+  "summary": "經 ARR 投稿：長文 8 頁、短文 4 頁，一定要有 Limitations 章節，還要有合格的 service contributor 才保證被審。",
+  "sources": [
+    {
+      "file": "acl2027_cfp.txt",
+      "title": "ACL 2027 徵稿說明",
+      "url": "https://2027.aclweb.org/calls/main/",
+      "captured": "2026/11/02"
+    },
+    {
+      "file": "arr_cfp.txt",
+      "title": "ACL Rolling Review 徵稿說明",
+      "url": "https://aclrollingreview.org/cfp",
+      "captured": "2026/11/02"
+    },
+    {
+      "file": "arr_authors.txt",
+      "title": "ACL Rolling Review 作者指南",
+      "url": "https://aclrollingreview.org/authors",
+      "captured": "2026/11/02"
+    }
+  ],
+  "sections": {
+    "pages": [
+      {
+        "zh": "長文主文上限 8 頁、短文上限 4 頁（依 ARR 投稿規定）。",
+        "quote": "Long Papers (8 pages) and Short Papers (4 pages)",
+        "file": "acl2027_cfp.txt"
+      },
+      {
+        "zh": "結論後可無限使用空間放必填的 Limitations 與選填的 ethical considerations，不占主文頁數。",
+        "quote": "unlimited extra space after the conclusion for limitations (required, see below) and optional section on ethical considerations",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "參考文獻頁數不限。",
+        "quote": "plus unlimited pages of references",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "camera-ready 可多 1 頁（長文最多 9 頁、短文最多 5 頁）以回應審稿意見。",
+        "quote": "Final versions of accepted papers will be given one additional page of content (up to 9 pages for long papers, up to 5 pages for short papers)",
+        "file": "acl2027_cfp.txt"
+      }
+    ],
+    "anonymity": [
+      {
+        "zh": "論文不得包含作者姓名與單位，也要避免會暴露身分的自我引用。",
+        "quote": "Papers must not include authors’ names and affiliations. Furthermore, self-references that reveal the authors’ identities",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "自 2024/2/15 起，審稿期間張貼或討論非匿名 preprint 沒有匿名期或限制。",
+        "quote": "Beginning February 15, 2024, there is no anonymity period or limitation on posting or discussing non-anonymous preprints while the work is under peer review.",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "但政策以特別論文獎與 borderline 論文優先錄取來鼓勵匿名投稿。",
+        "quote": "the current policy does incentivize anonymous submissions through special paper awards and priority in acceptance decisions for borderline papers",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "若選擇具約束力的「no non-anonymous preprint」選項，在 meta-review 公布前不得發 preprint，違者 desk reject。",
+        "quote": "If you choose the binding “no non-anonymous preprint” option, you commit to not preprinting until the metareviews are released, under the penalty of desk rejection.",
+        "file": "arr_cfp.txt"
+      }
+    ],
+    "appendix": [
+      {
+        "zh": "附錄須放在 PDF 的參考文獻之後，不計入頁數上限。",
+        "quote": "Appendices should come after the references in the submitted pdf. They do not count towards the page limit.",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "審稿人沒有義務閱讀附錄內容。",
+        "quote": "However, reviewers are not required to consider material in appendices.",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "把關鍵內容放進附錄可能被視為規避頁數限制而遭 desk reject。",
+        "quote": "Including key materials in appendices could be viewed as an attempt to circumvent the content page count, and result in desk rejection.",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "附錄必須使用官方雙欄格式（ACLPUB 核准的例外除外）。",
+        "quote": "Note that the appendices must follow the official double-column format, with the exceptions covered by the ACLPUB guidelines",
+        "file": "arr_cfp.txt"
+      }
+    ],
+    "llm": [
+      {
+        "zh": "生成式 AI 工具不能列為作者；用於寫作或寫程式及其範圍須在 Responsible NLP Checklist 中揭露。",
+        "quote": "Generally, generative AI tools do not qualify for authorship. Their use for writing or coding, as well as its scope, must be disclosed in the Responsible NLP Checklist.",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "只做校對的工具（如文法、拼字檢查）不需揭露。",
+        "quote": "The use of tools that only assist with proofreading, like grammar or spell checkers, does not need to be disclosed.",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "所有作者需對方法、結果與寫作的正確性負完全責任。",
+        "quote": "In all cases, all authors are fully responsible for the correctness of their methods, results, and writing.",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "含有意圖操控生成式工具的 prompt injection 的投稿會被 desk reject。",
+        "quote": "Submissions with prompt injections intended to manipulate generative tools will be desk rejected.",
+        "file": "arr_cfp.txt"
+      }
+    ],
+    "rebuttal": [
+      {
+        "zh": "作者只能提交一則對所有審稿的 general response，以及每份審稿一則 author response，各自上限 5K 字元。",
+        "quote": "authors will only be able to provide one ‘general response’ to all reviews, and one ‘author response’ per review (max 5K characters in each).",
+        "file": "arr_authors.txt"
+      },
+      {
+        "zh": "可提出直接回應審稿人提問的新實驗結果。",
+        "quote": "it is OK to present new experimental results that are in direct response to a reviewer’s question",
+        "file": "arr_authors.txt"
+      },
+      {
+        "zh": "不得提交未被要求的新結果，或顯示投稿後有大量額外工作的結果。",
+        "quote": "However, you are not allowed to submit unsolicited new results or fresh results that would indicate substantial additional work after the paper submission",
+        "file": "arr_authors.txt"
+      },
+      {
+        "zh": "回覆只能是純文字、不得有外部連結，違反者論文會被 desk reject。",
+        "quote": "Your response must be text-only, and no external links are allowed. The paper will be desk-rejected if this is violated.",
+        "file": "arr_authors.txt"
+      }
+    ],
+    "special": [
+      {
+        "zh": "投稿須有合格的 service contributor 才保證被審。",
+        "quote": "Submissions will only be guaranteed review if they contribute a qualified service contributor (serving as a reviewer, chair or in senior roles).",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "單一作者最多投 20 篇，以第一或共同第一作者身分最多 5 篇。",
+        "quote": "There are now caps on maximum submissions by a single author (20) and first or joint-first authors (5)",
+        "file": "arr_cfp.txt"
+      },
+      {
+        "zh": "ACL 2027 的 ARR 投稿截止日（長文與短文）為 2027/1/4。",
+        "quote": "ARR submission deadline (long & short papers) Jan 4, 2027",
+        "file": "acl2027_cfp.txt"
+      },
+      {
+        "zh": "缺少 Limitations 章節的論文會被 desk reject。",
+        "quote": "Papers without a limitations section will be desk rejected.",
+        "file": "arr_cfp.txt"
+      }
+    ]
+  }
+}
